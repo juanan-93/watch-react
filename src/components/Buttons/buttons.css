@@ -1,0 +1,48 @@
+.buttons{
+
+    display: flex;
+
+}
+
+.button-buy{
+
+    border: none;
+    margin: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.5rem;
+    
+}
+
+.button-cart{
+
+    border: none;
+    margin: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.cart{
+    padding: 0.3rem 0.8rem;
+    border-radius: 1.5rem;
+}
+
+button{
+    border: none;
+    background-color:#FF6622;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    
+}
+
+button:hover{
+    background-color:#404445;
+}
+
+
