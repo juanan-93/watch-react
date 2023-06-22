@@ -1,0 +1,12 @@
+.button-sldier{
+   
+    position: absolute;
+    top: 33rem;
+    left: 33rem;
+}
+
+.central-button{
+    background-color: #0084FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
