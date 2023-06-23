@@ -1,5 +1,5 @@
 import React from "react";
-import "./buttons.css";
+import styles from "./buttons.module.css";
 import Icon from '@mdi/react';
 import { mdiCartVariant } from '@mdi/js';
 
@@ -8,15 +8,15 @@ import { mdiCartVariant } from '@mdi/js';
 export default function Buttons() {
   return (
 
-    <div className="buttons">
+    <div className={styles.buttons}>
 
-      <div className="button-cart">
-        <button className="cart">
+      <div className={styles.buttonCart}>
+        <button className={styles.cart}>
           <Icon path={mdiCartVariant} size={1} style={{ color: 'white' }} />
         </button>
       </div>
 
-      <div className="button-buy">
+      <div className={styles.buttonBuy}>
         <button>BUY IT NOW</button>
       </div>
 

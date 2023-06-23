@@ -1,12 +1,12 @@
 import React from "react";
-import "./titel-slider.css";
+import styles from "./titel-slider.module.css";
 
 export default function TitelSlider() {
   return (
 
-    <div className="titel-slider">
+    <div className={styles.titelSlider}>
 
-        <h1>The future of tech is here</h1>
+      <h1>The future of tech is here</h1>
         
     </div>
   );

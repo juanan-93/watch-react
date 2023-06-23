@@ -1,5 +1,5 @@
 import React from "react";
-import "./titel-funcion.css";
+import "./titel-funcion.module.css";
 
 export default function TitelFuncion() {
   return (

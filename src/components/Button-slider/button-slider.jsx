@@ -1,13 +1,13 @@
 import React from "react";
-import "./button-slider.css";
+import styles from "./button-slider.module.css";
 
 
 export default function ButtonSlider() {
   return (
 
-    <div className="button-sldier">
+    <div className={styles.buttonSlider}>
 
-        <button className="central-button">BUY WITH PAYPAL</button>
+        <button>BUY WITH PAYPAL</button>
      
     </div>
 
