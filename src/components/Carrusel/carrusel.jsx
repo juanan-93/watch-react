@@ -7,9 +7,9 @@ export default function Carrusel() {
   return (
     <div className="carrusel">
 
-        <TitelCarrusel/>
-        <SubtextCarrusel/>
-        <ImageFunction/>
+      <TitelCarrusel/>
+      <SubtextCarrusel/>
+      <ImageFunction/>
 
 
     </div>
