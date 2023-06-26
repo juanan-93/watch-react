@@ -1,6 +1,4 @@
 import React from "react";
-
-import ImagePc from "../../assets/images/pc.png";
 import TitelCarrusel from "../Titel-funcion/titel-funcion.jsx";
 import SubtextCarrusel from "../Subtext-funcion/subtext-funcion.jsx";
 import ImageFunction from "../Image-funcion/image-funcion.jsx";
