@@ -17,7 +17,7 @@ export default function Buttons() {
       </div>
 
       <div className={styles.buttonBuy}>
-        <button>BUY IT NOW</button>
+        <button className={styles.buyButton}>BUY IT NOW</button>
       </div>
 
     </div>

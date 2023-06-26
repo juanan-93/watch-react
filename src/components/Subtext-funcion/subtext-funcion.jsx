@@ -1,12 +1,12 @@
 import React from "react";
-import "./subtext-funcion.css";
+import styles from "./subtext-funcion.module.css";
 
 export default function SubtextFuncion() {
   return (
 
-    <div className="subtext-funcion">
+    <div className={styles.subtextFuncion}>
 
-        <p className="text-funcion">Everybody loves tech gadgets, But our’s is different. Here is how it works. Its should be simple. Add how easy is to install your product</p>
+        <p className={styles.textFuncion}>Everybody loves tech gadgets, But our’s is different. Here is how it works. Its should be simple. Add how easy is to install your product</p>
         
     </div>
   );

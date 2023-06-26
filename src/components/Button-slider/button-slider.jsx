@@ -7,7 +7,7 @@ export default function ButtonSlider() {
 
     <div className={styles.buttonSlider}>
 
-        <button>BUY WITH PAYPAL</button>
+        <button className={styles.ac}>BUY WITH PAYPAL</button>
      
     </div>
 

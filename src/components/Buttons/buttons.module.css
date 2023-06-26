@@ -28,9 +28,10 @@
 .cart{
     padding: 0.3rem 0.8rem;
     border-radius: 1.5rem;
+    
 }
 
-button{
+.cart{
     border: none;  
     background-color:#FF6622;
     border-radius: 0.5rem;
@@ -39,6 +40,17 @@ button{
     border-radius: 1.5rem;
     font-size: 1.2rem;
     
+}
+
+.buyButton{
+
+    border: none;  
+    background-color:#FF6622;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    padding: 0.5rem 2rem;    
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
 }
 
 button:hover{

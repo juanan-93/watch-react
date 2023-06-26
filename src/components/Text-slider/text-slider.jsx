@@ -6,7 +6,7 @@ export default function TextSlider() {
 
     <div className={styles.textSlider}>
 
-        <p>Holisticly incentivize revolutionary collaboration and idea sharing before cost effective users. Actual focused services before highly efficient human capital.</p>
+        <p className={styles.textS}>Holisticly incentivize revolutionary collaboration and idea sharing before cost effective users. Actual focused services before highly efficient human capital.</p>
         
     </div>
   );

@@ -4,8 +4,13 @@
     left: 33rem;
 }
 
-button{
+.ac{
     background-color: #0084FF;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
 }
+
