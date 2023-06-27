@@ -6,7 +6,7 @@ export default function ImageSlider() {
   return (
     <div className="image-watch">
 
-        <img src={image3} alt="ImageSlider"/>
+      <img src={image3} alt="ImageSlider"/>
         
     </div>
   );

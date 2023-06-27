@@ -1,0 +1,64 @@
+.from{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 140rem;
+    left: 30rem;
+    padding: 1rem 4rem;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+input{
+    width: 100%;
+    height: 2rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+textarea{
+    width: 100%;
+    height: 5rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+
+
+
+.buttonFrom{
+
+    width: 100%;
+    height: 2rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 1rem;
+}
