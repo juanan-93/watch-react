@@ -6,6 +6,7 @@ import Carrusel from './components/Carrusel/carrusel.jsx';
 import Product from './components/Product/product.jsx';
 import Footer from './components/Footer/footer.jsx';
 
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,6 @@ function App() {
       <Carrusel/>
       <Product/>
       <Footer/>
-     
       
       
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import BackgroundFooter from "../Footer/footer-background.jsx/";
-import From from "../Footer-from/from.jsx/";
+import BackgroundFooter from "../Footer-background/footer-background.jsx";
+import From from "../Footer-from/from.jsx";
 
 
 export default function Footer() {

@@ -1,5 +1,20 @@
-import React from "react";
+import React,{useState} from "react";
 import styles from "./from.module.css";
+
+
+
+
+  const[value, setValue]=useState("");
+  const maxLength=100;
+
+  const limit = (e) => {
+    const text = e.target.value;
+    if (text.length <= maxLength) {
+      setValue(text);
+    }
+  }
+
+
 
 
 export default function From() {
@@ -25,7 +40,7 @@ export default function From() {
         </div>
         <div>
           <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" value={value} maxLength={maxLength} onChange={limit}></textarea>
         </div>
         <div className={styles.fromButton}>
           <button className={styles.buttonFrom} type="submit">Enviar</button>
