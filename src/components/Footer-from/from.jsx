@@ -12,7 +12,9 @@ export default function From() {
   const maxLength=100;
 
   const limit = (e) => {
+
     const text = e.target.value;
+    
     if (text.length <= maxLength) {
       setValue(text);
     }

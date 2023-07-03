@@ -5,6 +5,7 @@ import Slider from './components/Slider/slider.jsx';
 import Carrusel from './components/Carrusel/carrusel.jsx';
 import Product from './components/Product/product.jsx';
 import Footer from './components/Footer/footer.jsx';
+import PopUp from './components/Pop-up/pop-up.jsx';
 
 
 function App() {

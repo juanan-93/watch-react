@@ -1,0 +1,6 @@
+.Popup{
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+}

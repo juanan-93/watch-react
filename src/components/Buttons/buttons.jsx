@@ -1,11 +1,17 @@
-import React from "react";
+import React,{useState} from "react";
 import styles from "./buttons.module.css";
 import Icon from '@mdi/react';
 import { mdiCartVariant } from '@mdi/js';
+import PopUps from "../Pop-up/pop-up.jsx";
 
 
 
 export default function Buttons() {
+
+  const [popUp, setPopUp] = useState(false);
+
+  
+
   return (
 
     <div className={styles.buttons}>
@@ -17,7 +23,8 @@ export default function Buttons() {
       </div>
 
       <div className={styles.buttonBuy}>
-        <button className={styles.buyButton}>BUY IT NOW</button>
+        <button className={styles.buyButton} >BUY IT NOW</button>
+        {popUp && <PopUps />}
       </div>
 
     </div>
