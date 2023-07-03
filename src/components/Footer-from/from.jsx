@@ -4,6 +4,10 @@ import styles from "./from.module.css";
 
 
 
+
+export default function From() {
+
+
   const[value, setValue]=useState("");
   const maxLength=100;
 
@@ -12,12 +16,9 @@ import styles from "./from.module.css";
     if (text.length <= maxLength) {
       setValue(text);
     }
-  }
+  };
 
 
-
-
-export default function From() {
   return (
 
     
