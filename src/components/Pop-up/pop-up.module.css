@@ -1,6 +1,9 @@
 .Popup{
     position: absolute;
-    top: 0;
+    top: 12rem;
+    width: 35%;
     background-color: #fff;
     display: flex;
+    z-index: 1;
+    left: 31rem;
 }

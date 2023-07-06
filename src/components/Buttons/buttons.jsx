@@ -10,6 +10,14 @@ export default function Buttons() {
 
   const [popUp, setPopUp] = useState(false);
 
+  const handlePopUp = () => {
+    if (popUp === false){
+      setPopUp(true);
+    } else {
+      setPopUp(false);
+    }
+  }
+
   
 
   return (
@@ -23,7 +31,7 @@ export default function Buttons() {
       </div>
 
       <div className={styles.buttonBuy}>
-        <button className={styles.buyButton} >BUY IT NOW</button>
+        <button className={styles.buyButton} onClick={handlePopUp} >BUY IT NOW</button>
         {popUp && <PopUps />}
       </div>
 
